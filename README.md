@@ -14,6 +14,11 @@
    * Download wav files into the folder for the database (e.g., ```data/CREMA-D/Audios```) by submiting the EULA form for the six databases.
    * [CREMA-D](https://github.com/CheyneyComputerScience/CREMA-D)
 
+# Data Explainition
+* fold1 - fold5: voice-only
+* fold5 - fold10: audio-visual
+* fold11 - fold15: **proposed all-inclusive label set**
+* fold16 - fold20: face-only
 
 ## Training Models 
 ### (Example) Use the command line. We take the **fbank** as an example.
