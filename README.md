@@ -22,7 +22,7 @@ for upstream in fbank; do
  for test_fold in fold1 fold2 fold3 fold4 fold5; do
   for corpus in CREMAD; do
   python3 run_downstream.py -n ${upstream}_${corpus}_$test_fold -m train -u ${upstream} -d emo -c downstream/emo/config_${corpus}.yaml -o "config.downstream_expert.datarc.test_fold='$test_fold'"
-  python3 run_downstream.py -m evaluate -e result/downstream/${upstream}_${corpus}_$test_fold/dev-best.ckpt
+  python3 run_downstream.py -m evaluate -e result/downstream/${upstream}_${corpus}_${test_fold}_multimodal/dev-best.ckpt
   done;
  done;
 done
@@ -35,4 +35,4 @@ $ bash run_log_test.sh
 
 ## Trained WavLM Models
 * All files can be downloaded by the [link](https://drive.google.com/file/d/1mzP6wEJkh4WVHZGsaGiaCcwOT8s0D7GK/view?usp=sharing).
-* Unzip the .zip file and move the folder into the path (s3prl/s3prl/result/)
+* Unzip the .zip file and move the folder into the path (s3prl/s3prl/result/downstream/)
