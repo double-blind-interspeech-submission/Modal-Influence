@@ -21,7 +21,6 @@
 for upstream in fbank; do 
  for test_fold in fold1 fold2 fold3 fold4 fold5; do
   for corpus in CREMAD; do
-  # The default config is "downstream/emotion/config.yaml"
   python3 run_downstream.py -n ${upstream}_${corpus}_$test_fold -m train -u ${upstream} -d emo -c downstream/emotion/config_${corpus}.yaml -o "config.downstream_expert.datarc.test_fold='$test_fold'"
   python3 run_downstream.py -m evaluate -e result/downstream/${upstream}_${corpus}_$test_fold/dev-best.ckpt
   done;
