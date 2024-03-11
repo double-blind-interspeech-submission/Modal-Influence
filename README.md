@@ -28,7 +28,12 @@ for upstream in fbank; do
 done
 ```
 
-## Cross-testing
+## Model Evaluation
+### Checking
+``` bash
+$ bash run_log_test.sh
+```
+### Evaluation
 ``` bash
 $ bash run_log_test.sh
 ```
