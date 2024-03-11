@@ -33,3 +33,7 @@ done
 ``` bash
 $ bash run_log_test.sh
 ```
+
+## Trained Models
+* All files can be downloaded by the [link](https://drive.google.com/file/d/1mzP6wEJkh4WVHZGsaGiaCcwOT8s0D7GK/view?usp=sharing).
+* Unzip the .zip file and move the folder into the path (s3prl/s3prl/result/)
