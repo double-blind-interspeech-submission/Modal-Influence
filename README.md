@@ -16,7 +16,7 @@
 
 
 ## Training Models 
-### Use the command line. We take the **fbank** as an example.
+### (Example) Use the command line. We take the **fbank** as an example.
 ```
 for upstream in fbank; do 
  for test_fold in fold1 fold2 fold3 fold4 fold5; do
@@ -28,11 +28,11 @@ for upstream in fbank; do
 done
 ```
 
-## Model Evaluation
+## Model Training and Evaluation
 ``` bash
 $ bash run_log_test.sh
 ```
 
-## Trained Models
+## Trained WavLM Models
 * All files can be downloaded by the [link](https://drive.google.com/file/d/1mzP6wEJkh4WVHZGsaGiaCcwOT8s0D7GK/view?usp=sharing).
 * Unzip the .zip file and move the folder into the path (s3prl/s3prl/result/)
