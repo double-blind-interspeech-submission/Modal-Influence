@@ -11,7 +11,7 @@
       ```
 2. Move the ```emo``` folder into the path ```s3prl/s3prl/downstream```
 3. Move the ```data folder``` into the path ```s3prl/s3prl/``` 
-   * Download wav files into the folder for each database (e.g., ```data/IEMOCAP/Audios```)by submiting the EULA form for the six databases.
+   * Download wav files into the folder for the database (e.g., ```data/CREMA-D/Audios```) by submiting the EULA form for the six databases.
    * [CREMA-D](https://github.com/CheyneyComputerScience/CREMA-D)
 
 
